@@ -1,0 +1,43 @@
+
+.navbar {
+    background-color: rgb(180, 88, 88);
+    
+}
+.navbar-item{
+  text-decoration-color: cadetblue;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+  border-bottom: 6px solid  rgb(136, 58, 58);
+  background-color: lightgrey;
+  margin-right: 320px;
+}
+
+.marco{
+
+  border: 1px solid rgb(136, 58, 58);
+}
+body{
+
+background-color: rgb(217, 255, 237);
+
+}
+.galeria{
+  border: 2px solid rgb(180, 88, 88);
+}
+footer{
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(180, 88, 88);
+  color: rgb(217, 255, 237);
+}
+.card-inner img{
+  width: 120%;
+  height: 120%;
+}
