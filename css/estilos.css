@@ -37,7 +37,82 @@ footer{
   background-color: rgb(180, 88, 88);
   color: rgb(217, 255, 237);
 }
-.card-inner img{
-  width: 120%;
-  height: 120%;
+.contenedor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+.contenedor figure{
+  position: relative;
+  height: 650px;
+  width: 750px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0,0.50);
+  cursor: pointer;  
+}
+.contenedor figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 24, 3, 0.664);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenedor figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+} 
+.contenedor figure:hover > img{
+  transform: scale(1.3);
+}
+.contenedor figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition:all 500ms ease-out ;
+  margin-top: 30px;
+}
+.contenedor figure .capa p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+.titulo {
+  text-align: center;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
