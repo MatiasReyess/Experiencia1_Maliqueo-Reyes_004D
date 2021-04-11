@@ -25,6 +25,9 @@
    background-color: rgb(211, 211, 211,0.4);
    text-align: left;
    font-style: italic;
+   font-size: 40px;
+  color: rgb(175, 54, 54);
+  text-shadow: 2px 2px 5px black;
  
  }
  .titulo2{
@@ -32,11 +35,15 @@
    background-color: rgb(211, 211, 211,0.4);
    font-style: italic;
    text-align: right;
+   font-size: 40px;
+   color: rgb(214, 65, 46);
+   text-shadow: 2px 2px 5px black;
  }
  .cuerpo{
    
    padding-top: 50px;
    padding-bottom: 200px;
+   border-radius: 100px;
  }
  .texto1{
    margin: auto;
@@ -44,16 +51,23 @@
    text-justify: distribute;
    width: 100%;
    height: 100%;
+   color: white;
+   font-size: 24px;
+   font-style: italic;
+   text-shadow: 2px 2px 5px black;
  }
- .texto2{
-   margin: auto;
-   text-align: center;
-   text-justify: distribute;
-   width: 100%;
-   height: 100%;
-   
- }
+
+
 /*--Sobre nosotros --*/
+.zoom {
+
+  transition: transform .2s; /* Animacion */
+  
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
 
 .marco{
 
@@ -73,6 +87,55 @@ footer{
   background-color: rgb(180, 88, 88);
   color: rgb(217, 255, 237);
 }
+/* imagen de fondo*/
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo4.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fondo{
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondoCuerpo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+/* imagen de fondo*/
 .contenedor{
   width: 100%;
   display: flex;
@@ -152,3 +215,4 @@ footer{
   width: 100%;
   padding: 20px;
 }
+
