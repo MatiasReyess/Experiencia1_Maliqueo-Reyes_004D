@@ -18,6 +18,18 @@
   background-color: rgb(211,211,211,0.4);
   margin-right: 320px;
 }
+.portada{
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.articulo{
+   
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+
 /*--Sobre nosotros --*/
 .titulo1{
   padding-left: 12px;
